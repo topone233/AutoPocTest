@@ -1,7 +1,7 @@
 # AutoPocTest
 AutoPocTest是一个由x1uq1n9开源的漏洞检测框架，使用Python3开发，自动调用网络空间安全搜索引擎，目前只支持fofa，其他引擎有待开发。
 
-基本兼容网上绝大部分poc与exp，使用协程，轻量化，可满足在大多数场景下使用
+基本兼容网上绝大部分poc与exp；使用协程，轻量化，可满足在大多数场景下使用
 
 ## 安装
 - 从Git上获取最新版本的AutoPocTest代码
@@ -10,8 +10,9 @@ AutoPocTest是一个由x1uq1n9开源的漏洞检测框架，使用Python3开发�
 
 
     $ cd AutoPocTest
+    
     $ pip install -r requirements.txt
-
+    
 ## 使用
 - 如果没有FoFaApi的，可以将自己的fofa账号Cookie放入`user/COOKIES`文件中，免费爬取前五页内容；
 - 如果有FoFaApi的，在`main.py`中设置`USE_FofaApi`为`True`，然后填写自己的相关信息即可
